@@ -1,0 +1,18 @@
+#
+# Copyright 2016, NICTA
+#
+# This software may be distributed and modified according to the terms of
+# the BSD 2-Clause license. Note that NO WARRANTY is provided.
+# See "LICENSE_BSD2.txt" for details.
+#
+# @TAG(NICTA_BSD)
+#
+
+[package]
+name = "libcompiler-rt"
+version = "0.1.0"
+authors = ["kentm <kent.mcleod@data61.csiro.au>"]
+build = "build.rs"
+
+[build-dependencies]
+compiler_rt = { path = '../../projects/compiler-rt-sys' }
